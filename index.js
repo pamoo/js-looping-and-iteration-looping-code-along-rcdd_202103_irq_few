@@ -4,7 +4,7 @@ function writeCards(names,events) {
   // }
   let messageArray=[];
   for (let i = 0; i <names.length; i++) {
-    messageArray.push('thank you,'+names[i]+', for the wonderful ' + events+' gift!');
+    messageArray.push('thank you, '+names[i]+', for the wonderful ' + events+' gift!');
   }
   return messageArray;
 }
