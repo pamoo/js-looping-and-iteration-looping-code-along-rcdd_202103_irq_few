@@ -7,7 +7,7 @@ function writeCards(names,events) {
     messageArray[i]= ('thank you,' +names[i]+', for the wonderful ' + events+' gift');
   }
   for (var i = 0; i < messageArray.length; i++) {
-    console.log(messageArray[i]);
+    return (messageArray[i]);
   }
 }
 function countDown(i){
